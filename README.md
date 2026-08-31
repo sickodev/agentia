@@ -1,4 +1,4 @@
-# HumanScope / Agentville 🏙️🤖
+# Agentia
 
 [![Java 21](https://img.shields.io/badge/Java-21%2B%20Loom-ED8B00?style=flat&logo=openjdk&logoColor=white)](https://openjdk.org/projects/loom/)
 [![Spring Boot 3.3+](https://img.shields.io/badge/Spring%20Boot-3.3%2B-6DB33F?style=flat&logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
