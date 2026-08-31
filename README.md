@@ -40,7 +40,7 @@
 
 **Agentia** simulates 10–15+ autonomous AI citizens living in a 2.5D isometric town. Each agent perceives its surroundings, makes decisions driven by free-tier LLM cognition (Groq Llama-3 / Google Gemini 1.5 Flash), forms episodic memories, experiences dynamic moods, manages a wallet balance, and engages in emergent social and economic behaviors.
 
-Unlike traditional single-threaded or GIL-bound Python multi-agent demos, HumanScope leverages **Java 21 Project Loom Virtual Threads** to execute each agent's cognitive tick on a dedicated lightweight virtual thread with sub-millisecond scheduling and non-blocking I/O, streaming world state at 1 Hz via STOMP WebSockets to a neo-brutalist isometric web diorama.
+Unlike traditional single-threaded or GIL-bound Python multi-agent demos, Agentia leverages **Java 21 Project Loom Virtual Threads** to execute each agent's cognitive tick on a dedicated lightweight virtual thread with sub-millisecond scheduling and non-blocking I/O, streaming world state at 1 Hz via STOMP WebSockets to a neo-brutalist isometric web diorama.
 
 ---
 
@@ -137,11 +137,6 @@ agentia/
 │       ├── types/                       # Simulation, Agent, Event, and Memory TypeScript models
 │       ├── App.tsx                      # Main diorama layout shell
 │       └── main.tsx                     # React DOM entrypoint
-├── artifacts/                           # Specifications and design assets
-│   ├── product_requirements_document.md # Full PRD
-│   ├── technical_specification.md      # Architecture and technical specs
-│   ├── ui_design_requirements.md        # UI design system and tokens
-│   └── user_product.md                  # User guide and operating manual
 ├── docker-compose.yml                   # One-command full-stack container orchestration
 ├── package.json                         # Root monorepo orchestration scripts
 └── README.md                            # Monorepo root documentation

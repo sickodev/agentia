@@ -1,4 +1,4 @@
-# HumanScope / Agentville Backend ⚙️🧵
+# Agentia Backend ⚙️🧵
 
 [![Java 21](https://img.shields.io/badge/Java-21%2B%20Loom-ED8B00?style=flat&logo=openjdk&logoColor=white)](https://openjdk.org/projects/loom/)
 [![Spring Boot 3.3+](https://img.shields.io/badge/Spring%20Boot-3.3%2B-6DB33F?style=flat&logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
@@ -36,7 +36,7 @@
 
 ## 🌟 Overview
 
-The **HumanScope (Agentville)** backend is an event-driven, high-concurrency simulation engine built from the ground up on modern Java 21. Unlike conventional single-threaded Python agent implementations that suffer from GIL contention and heavy memory overhead, this backend runs each autonomous agent on its own **Virtual Thread**.
+The **Agentia** backend is an event-driven, high-concurrency simulation engine built from the ground up on modern Java 21. Unlike conventional single-threaded Python agent implementations that suffer from GIL contention and heavy memory overhead, this backend runs each autonomous agent on its own **Virtual Thread**.
 
 Agents perceive their 2D world, query past episodic memories from SQLite, invoke free-tier LLM APIs (Groq Llama-3 or Gemini 1.5 Flash) with caching, update thread-safe shared spatial memory, and broadcast 1 Hz tick snapshots to connected web clients over WebSocket STOMP.
 

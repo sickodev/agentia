@@ -1,4 +1,4 @@
-# HumanScope / Agentville Frontend 🎨🏙️
+# Agentia Frontend 🎨🏙️
 
 [![React 18](https://img.shields.io/badge/React-18.3-61DAFB?style=flat&logo=react&logoColor=black)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.5-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
