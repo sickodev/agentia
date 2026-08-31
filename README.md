@@ -38,7 +38,7 @@
 
 ## 🌟 Overview
 
-**HumanScope (Agentville)** simulates 10–15+ autonomous AI citizens living in a 2.5D isometric town. Each agent perceives its surroundings, makes decisions driven by free-tier LLM cognition (Groq Llama-3 / Google Gemini 1.5 Flash), forms episodic memories, experiences dynamic moods, manages a wallet balance, and engages in emergent social and economic behaviors.
+**Agentia** simulates 10–15+ autonomous AI citizens living in a 2.5D isometric town. Each agent perceives its surroundings, makes decisions driven by free-tier LLM cognition (Groq Llama-3 / Google Gemini 1.5 Flash), forms episodic memories, experiences dynamic moods, manages a wallet balance, and engages in emergent social and economic behaviors.
 
 Unlike traditional single-threaded or GIL-bound Python multi-agent demos, HumanScope leverages **Java 21 Project Loom Virtual Threads** to execute each agent's cognitive tick on a dedicated lightweight virtual thread with sub-millisecond scheduling and non-blocking I/O, streaming world state at 1 Hz via STOMP WebSockets to a neo-brutalist isometric web diorama.
 
